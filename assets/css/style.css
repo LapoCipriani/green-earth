@@ -21,6 +21,11 @@
     background-size: cover; /* utile per la hero */
     background-position: center;
     min-height: calc(100vh - 60px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    flex-direction: column;
 }
 
 
