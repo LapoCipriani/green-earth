@@ -5,41 +5,41 @@
 }
 
 .header {
-    border: 1px solid red;
+    border: 1px solid red;/* da togliere */
     width: 100%;
     height: 60px;
 }
 
 .hero {
-    border: 1px solid green;
+    border: 1px solid green;/* da togliere */
 }
 
 .about {
-    border: 1px solid blue;
+    border: 1px solid blue;/* da togliere */
 }
 
 .projects {
-    border: 1px solid yellow;
+    border: 1px solid yellow;/* da togliere */
 }
 
 .project {
-    border: 1px solid red;
+    border: 1px solid red;/* da togliere */
 }
 
 .image {
-    border: 1px solid orange;
+    border: 1px solid orange;/* da togliere */
 }
 
 .contact {
-    border: 1px solid black;
+    border: 1px solid black;/* da togliere */
 }
 
 .form {
-    border: 1px solid purple;
+    border: 1px solid purple;/* da togliere */
 }
 
 .footer {
-    border: 1px solid red;
+    border: 1px solid red;/* da togliere */
 /*    padding: 0 50px;*/
 }
 
@@ -55,5 +55,5 @@
 .logo {
     height: 50%;
     width: auto;
-    border: 1px solid red;
+    border: 1px solid red; /* da togliere */
 }
