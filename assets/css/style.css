@@ -91,3 +91,13 @@
 .cta-button:hover {
     background:#2a9d42;
 }
+
+.footer {
+    padding: 20px 0;
+    text-align:center;
+}
+.footer ul{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}
