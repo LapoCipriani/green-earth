@@ -51,3 +51,8 @@
     background-color: #4CAF50; /* Cambia colore al passaggio del mouse */
     transition: background-color 0.3s ease;
 }
+
+.logo {
+    height: 50%;
+    width: auto;
+}
