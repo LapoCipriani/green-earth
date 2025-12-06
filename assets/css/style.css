@@ -62,7 +62,13 @@
 }
 
 .logo {
-    height: 60%;
-    aspect-ratio: 4 / 3; /* non mi convince */
+    height: 60px; /* oppure 50px se vuoi margine interno */
+    display:flex;
+    align-items:center;
     border: 1px solid red; /* da togliere */
+}
+
+.logo img {
+    height: 100%;
+    width: auto; /* mantiene le proporzioni reali */
 }
