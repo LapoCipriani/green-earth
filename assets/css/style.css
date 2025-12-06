@@ -54,6 +54,6 @@
 
 .logo {
     height: 50%;
-    width: auto;
+    aspect-ratio: 4 / 3; /* non mi convince */
     border: 1px solid red; /* da togliere */
 }
