@@ -38,4 +38,9 @@
 
 .footer {
     border: 1px solid red;
+    padding: 0 50px;
+}
+
+.footer ul {
+    list-style-type: none;
 }
