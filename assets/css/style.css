@@ -11,8 +11,12 @@
 }
 
 .hero {
-    border: 1px solid green;/* da togliere */
+    border: 1px solid green; /* da togliere */
+    background-image: url("../img/hero.jpg");
+    background-size: cover; /* utile per la hero */
+    background-position: center;
 }
+
 
 .about {
     border: 1px solid blue;/* da togliere */
