@@ -60,11 +60,11 @@
 .footer ul {
     list-style-type: none;
 }
-
+/* Cambia colore al passaggio del mouse
 .cta-button:hover {
-    background-color: #4CAF50; /* Cambia colore al passaggio del mouse */
+    background-color: #4CAF50;  
     transition: background-color 0.3s ease;
-}
+}*/
 
 .logo {
     height: 60px; /* oppure 50px se vuoi margine interno */
@@ -76,4 +76,18 @@
 .logo img {
     height: 100%;
     width: auto; /* mantiene le proporzioni reali */
+}
+
+.cta-button {
+    padding: 12px 24px;
+    background: #3bbf4f;
+    border-radius: 6px;
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-button:hover {
+    background:#2a9d42;
 }
