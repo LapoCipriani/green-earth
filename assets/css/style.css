@@ -55,4 +55,5 @@
 .logo {
     height: 50%;
     width: auto;
+    border: 1px solid red;
 }
