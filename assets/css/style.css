@@ -52,6 +52,7 @@
     border: 1px solid orange;/* da togliere */
     width: 50%;
     aspect-ratio: 1;
+    max-width: 300px;
 }
 
 .contact {
