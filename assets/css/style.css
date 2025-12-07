@@ -50,6 +50,8 @@
 
 .image {
     border: 1px solid orange;/* da togliere */
+    width: 50%;
+    aspect-ratio: 1;
 }
 
 .contact {
