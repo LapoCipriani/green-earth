@@ -132,3 +132,10 @@
 .about h2, .contact h2 {
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: flex-start;
+}
