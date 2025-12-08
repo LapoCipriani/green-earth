@@ -128,3 +128,7 @@
     gap:10px;
     justify-content:center;
 }
+
+.about h2 {
+    text-align: center;
+}
