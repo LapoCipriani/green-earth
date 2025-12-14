@@ -142,7 +142,7 @@ form {
     padding: 5%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .contact h2, .about h2, .projects h2 {
         text-align: left;/*
         padding-left: 5%;*/
