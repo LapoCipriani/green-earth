@@ -141,3 +141,33 @@ form {
     align-items: flex-start;
     padding: 5%;
 }
+
+@media (min-width: 800px) {
+    .contact h2, .about h2, .projects h2 {
+        text-align: left;/*
+        padding-left: 5%;*/
+    }
+    .projects {
+    border: 1px solid yellow;/* da togliere */
+    padding: 80px 5%;
+    /*display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:40px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    }
+    .projects-container {
+    border: 3px solid black;/* da togliere */
+    display: flex;
+    flex-direction: row;
+    }
+    .projects h2 {
+        align-self: flex-start;
+    }
+    .contact h2 {
+        text-align: left;
+        padding-left: 5%;
+    }
+}
