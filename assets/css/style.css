@@ -178,4 +178,8 @@ form {
         align-items: flex-start;
         
     }
+
+    .about h2 {
+        margin-bottom: 20px;
+    }
 }
