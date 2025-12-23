@@ -17,7 +17,7 @@
 
 .hero {
     border: 1px solid green; /* da togliere */
-    background-image: url("../img/hero.jpg");
+    background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
     min-height: calc(100vh - 60px);
