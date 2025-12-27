@@ -166,7 +166,7 @@ form {
 }
 
 .header, .footer {
-    background-color: rgb(59, 15, 15);
+    background-color: rgb(1, 58, 1);
 }
 @media (min-width: 768px) {
     .contact h2, .about h2, .projects h2 {
