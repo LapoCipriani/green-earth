@@ -165,6 +165,9 @@ form {
     padding: 5%;
 }
 
+.header, .footer {
+    background-color: rgb(59, 15, 15);
+}
 @media (min-width: 768px) {
     .contact h2, .about h2, .projects h2 {
         text-align: left;/*
