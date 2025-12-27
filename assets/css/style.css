@@ -75,8 +75,18 @@
     max-width: 300px;
 }
 
-.image img {
-    max-width: 300px;
+.one {
+    background-image: url("../img/henry-be-IicyiaPYGGI-unsplash.jpg");
+}
+.two {
+    background-image: url("../img/henry-be-IicyiaPYGGI-unsplash.jpg");
+}
+.three {
+    background-image: url("../img/henry-be-IicyiaPYGGI-unsplash.jpg");
+}
+.one, .two, .three {
+    background-size: cover; /* utile per la hero */
+    background-position: center;
 }
 
 .contact {
