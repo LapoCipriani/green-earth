@@ -115,8 +115,37 @@
     background-color: #4CAF50;  
     transition: background-color 0.3s ease;
 }*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.logo { height: 60px; /* oppure 50px se vuoi margine interno */ 
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items:center; 
+    border: 1px solid red; /* da togliere */ 
+} 
+.logo img { height: 100%; 
+    width: auto; 
+}
+.nav-dx {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
-.logo { height: 60px; /* oppure 50px se vuoi margine interno */ display:flex; align-items:center; border: 1px solid red; /* da togliere */ } .logo img { height: 100%; width: auto; }
+.nav-dx div {
+    padding: 5px;
+    border-right: 2px solid brown;
+}
+
+.nav-dx div:last-child {
+    border-right: none;
+}
 
 .cta-button {
     padding: 12px 24px;
