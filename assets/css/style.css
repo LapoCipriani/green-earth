@@ -117,42 +117,18 @@
 }*/
 .header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 .logo { height: 60px; /* oppure 50px se vuoi margine interno */ 
-    display:flex; 
-    flex-direction: row;
+    display:flex;
     justify-content: center;
     align-items:center; 
     border: 1px solid red; /* da togliere */ 
 }
 
-.logo a {
-    display: flex;
-    background-image: url("/assets/img/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-/* .logo img { height: 100%; 
+.logo img { height: 100%; 
     width: auto; 
-} */
-.nav-dx {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-.nav-dx div {
-    padding: 5px;
-    border-right: 2px solid brown;
-}
-
-.nav-dx div:last-child {
-    border-right: none;
 }
 
 .cta-button {
