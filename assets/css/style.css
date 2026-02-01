@@ -17,10 +17,7 @@
 
 .hero {
     /* border: 1px solid green; da togliere */
-    background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
-    background-position: center;
-    min-height: calc(100vh - 60px);
+    
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -29,6 +26,15 @@
     padding: 80px 5%;    
 }
 
+.hero h1 {
+    color: #1E4C2C;
+}
+.background-image-top {
+    background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
+    background-size: cover; /* utile per la hero */
+    background-position: center;
+    min-height: 100vh;
+}
 
 .about {
     /* border: 1px solid blue;da togliere */
@@ -103,13 +109,18 @@
 .contact {
     /* border: 1px solid black;da togliere */
     padding: 80px 5%;
-    min-height: 60vh;
+    /* min-height: 60vh;
+    background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
+    background-size: cover; 
+    background-position: center; */
+    
+}
+.background-image-bottom {
+    min-height: 100vh;
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
-    min-height: 100vh;
 }
-
 .form {
     /* border: 1px solid purple;da togliere */
 }
@@ -136,7 +147,7 @@
     display:flex;
     justify-content: center;
     align-items:center; 
-    border: 1px solid red; /* da togliere */ 
+    /* border: 1px solid red; */
 }
 
 .logo img { height: 100%; 
@@ -145,7 +156,7 @@
 
 .cta-button {
     padding: 12px 24px;
-    background: #3bbf4f;
+    background: #1E4C2C;
     border-radius: 6px;
     text-decoration:none;
     color:white;
@@ -168,7 +179,7 @@
     padding-top: 20px;
 }
 
-.footer ul li a, .footer p, .hero h1 {
+.footer ul li a, .footer p {
     color: rgba(252, 221, 154, 0.693);
 }
 
@@ -186,7 +197,8 @@ form {
 }
 
 .header, .footer {
-    background-color: rgb(1, 58, 1);
+    background-color: rgba(55, 83, 53, 0.65);
+    color: rgba(252, 221, 154, 0.693);
 }
 
 @media (min-width: 768px) {
