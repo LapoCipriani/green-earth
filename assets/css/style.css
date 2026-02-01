@@ -53,6 +53,9 @@
     width: 100%;
 }
 
+.about .text-container h3 {
+    padding: 30px 0 10px 0;
+}
 .projects {
     /* border: 1px solid yellow;da togliere */
     padding: 80px 0;
