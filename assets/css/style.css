@@ -35,6 +35,7 @@
     background-image: url("../img/qingbao-meng-01_igFr7hd4-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
+    min-height: 100vh;
 }
 
 .projects {
@@ -43,6 +44,7 @@
     background-image: url("../img/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
+    min-height: 100vh;
     /*display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap:40px;*/
@@ -96,6 +98,7 @@
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
+    min-height: 100vh;
 }
 
 .form {
