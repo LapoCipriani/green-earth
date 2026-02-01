@@ -87,6 +87,7 @@
     justify-content: center;
     padding: 5%;
     text-align: center;
+    gap: 10px;
 }
 
 .image {
@@ -124,14 +125,6 @@
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
-}
-.form {
-    /* border: 1px solid purple;da togliere */
-}
-
-.footer {
-    /* border: 1px solid red;da togliere */
-/*    padding: 0 50px;*/
 }
 
 .footer ul {
