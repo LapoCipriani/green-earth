@@ -11,12 +11,12 @@
     align-items: center;
     justify-content: center;
     padding: 0 20px;
-    border: 1px solid red;/* da togliere */
+    /* border: 1px solid red;da togliere */
 }
 
 
 .hero {
-    border: 1px solid green; /* da togliere */
+    /* border: 1px solid green; da togliere */
     background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
     background-size: cover; /* utile per la hero */
     background-position: center;
@@ -30,7 +30,7 @@
 
 
 .about {
-    border: 1px solid blue;/* da togliere */
+    /* border: 1px solid blue;da togliere */
     padding: 80px 5%;
     background-image: url("../img/qingbao-meng-01_igFr7hd4-unsplash.jpg");
     background-size: cover; /* utile per la hero */
@@ -39,7 +39,7 @@
 }
 
 .projects {
-    border: 1px solid yellow;/* da togliere */
+    /* border: 1px solid yellow;da togliere */
     padding: 80px 0;
     background-image: url("../img/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
     background-size: cover; /* utile per la hero */
@@ -55,13 +55,13 @@
 }
 
 .projects-container {
-    border: 3px solid black;/* da togliere */
+    /* border: 3px solid black;da togliere */
     display: flex;
     flex-direction: column;
 }
 
 .project {
-    border: 1px solid red;/* da togliere */
+    /* border: 1px solid red;da togliere */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@
 }
 
 .image {
-    border: 1px solid orange;/* da togliere */
+    /* border: 1px solid orange;da togliere */
     width: 100%;
     aspect-ratio: 1;
     max-width: 300px;
@@ -92,7 +92,7 @@
 }
 
 .contact {
-    border: 1px solid black;/* da togliere */
+    /* border: 1px solid black;da togliere */
     padding: 80px 0;
     min-height: 60vh;
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
@@ -102,11 +102,11 @@
 }
 
 .form {
-    border: 1px solid purple;/* da togliere */
+    /* border: 1px solid purple;da togliere */
 }
 
 .footer {
-    border: 1px solid red;/* da togliere */
+    /* border: 1px solid red;da togliere */
 /*    padding: 0 50px;*/
 }
 
@@ -181,7 +181,7 @@ form {
         padding-left: 5%;*/
     }
     .projects {
-    border: 1px solid yellow;/* da togliere */
+    /* border: 1px solid yellow;da togliere */
     padding: 80px 5%;
     /*display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -192,7 +192,7 @@ form {
     gap: 30px;
     }
     .projects-container {
-    border: 3px solid black;/* da togliere */
+    /* border: 3px solid black;da togliere */
     display: flex;
     flex-direction: row;
     }
