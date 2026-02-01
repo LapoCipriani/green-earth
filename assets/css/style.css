@@ -14,12 +14,18 @@
     /* border: 1px solid red;da togliere */
 }
 
-
+.background-image-top {
+    background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
+    background-size: cover; /* utile per la hero */
+    background-position: center;
+    min-height: 100vh;
+}
 .background-image-top .hero {
+    height: calc(100vh - 60px);
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
     text-align:center;
     
     padding: 80px 5%;    
@@ -28,12 +34,7 @@
 .hero h1 {
     color: #1E4C2C;
 }
-.background-image-top {
-    background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
-    background-position: center;
-    min-height: 100vh;
-}
+
 
 .about {
     /* border: 1px solid blue;da togliere */
@@ -132,16 +133,12 @@
 .footer ul {
     list-style-type: none;
 }
-/* Cambia colore al passaggio del mouse
-.cta-button:hover {
-    background-color: #4CAF50;  
-    transition: background-color 0.3s ease;
-}*/
-.header {
+
+/* .header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .logo { height: 60px; /* oppure 50px se vuoi margine interno */ 
     display:flex;
     justify-content: center;
@@ -163,8 +160,10 @@
     transition:.3s;
 }
 
+/* Cambia colore al passaggio del mouse */
 .cta-button:hover {
-    background:#2a9d42;
+    background-color: #718F22;  
+    transition: background-color 0.3s ease;
 }
 
 .footer {
