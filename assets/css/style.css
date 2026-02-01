@@ -116,17 +116,7 @@
     transition: background-color 0.3s ease;
 }*/
 
-.logo {
-    height: 60px; /* oppure 50px se vuoi margine interno */
-    display:flex;
-    align-items:center;
-    border: 1px solid red; /* da togliere */
-}
-
-.logo img {
-    height: 100%;
-    width: auto; /* mantiene le proporzioni reali */
-}
+.logo { height: 60px; /* oppure 50px se vuoi margine interno */ display:flex; align-items:center; border: 1px solid red; /* da togliere */ } .logo img { height: 100%; width: auto; }
 
 .cta-button {
     padding: 12px 24px;
