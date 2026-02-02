@@ -139,16 +139,21 @@
     justify-content: center;
     align-items: center;
 } */
-.logo { height: 60px; /* oppure 50px se vuoi margine interno */ 
-    display:flex;
+.header { 
+    padding: 1rem;
+    /* height: 60px; oppure 50px se vuoi margine interno  */
+    /* display:flex;
     justify-content: center;
-    align-items:center; 
+    align-items:center;  */
     /* border: 1px solid red; */
 }
-
-.logo img { height: 100%; 
-    width: auto; 
+.header img {
+    height: clamp(40px, 6vw, 60px);
+    width: auto;
 }
+/* .logo img { height: 100%; 
+    width: auto; 
+} */
 
 .cta-button {
     padding: 12px 24px;
