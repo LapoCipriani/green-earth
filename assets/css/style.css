@@ -1,34 +1,53 @@
+/* =========================
+   RESET & GLOBALI
+========================= */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* =========================
+   HEADER
+========================= */
 .header {
-    /* max-height: 60px;
-    width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    /* border: 1px solid red;da togliere */
 }
 
+.header img {
+    height: clamp(40px, 6vw, 60px);
+    width: auto;
+}
+
+.header,
+.footer {
+    background-color: rgba(55, 83, 53, 0.65);
+    color: rgba(252, 221, 154, 0.693);
+}
+
+
+/* =========================
+   HERO / TOP BACKGROUND
+========================= */
 .background-image-top {
     background-image: url("../img/bhautik-patel-xF-G_9-gpIE-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
+
 .background-image-top .hero {
     height: calc(100vh - 60px);
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:space-around;
-    text-align:center;
-    
-    padding: 80px 5%;    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 80px 5%;
 }
 
 .hero h1 {
@@ -36,15 +55,25 @@
 }
 
 
+/* =========================
+   ABOUT
+========================= */
 .about {
-    /* border: 1px solid blue;da togliere */
     padding: 80px 5%;
     background-image: url("../img/qingbao-meng-01_igFr7hd4-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
 
+.about .text-container h3 {
+    padding: 30px 0 10px 0;
+}
+
+
+/* =========================
+   TEXT CONTAINER (riutilizzabile)
+========================= */
 .text-container {
     background-color: rgba(55, 83, 53, 0.65);
     color: rgba(252, 221, 154, 0.693);
@@ -53,37 +82,34 @@
     width: 100%;
 }
 
-.about .text-container h3 {
-    padding: 30px 0 10px 0;
-}
+
+/* =========================
+   PROJECTS
+========================= */
 .projects {
-    /* border: 1px solid yellow;da togliere */
     padding: 80px 0;
     background-image: url("../img/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
+    background-size: cover;
     background-position: center;
     min-height: 100vh;
-    /*display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap:40px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
+
 .projects .text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .projects-container {
-    /* border: 3px solid black;da togliere */
     display: flex;
     flex-direction: column;
 }
 
 .project {
-    /* border: 1px solid red;da togliere */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +120,6 @@
 }
 
 .image {
-    /* border: 1px solid orange;da togliere */
     width: 100%;
     aspect-ratio: 1;
     max-width: 300px;
@@ -103,141 +128,121 @@
 .one {
     background-image: url("../img/henry-be-IicyiaPYGGI-unsplash.jpg");
 }
+
 .two {
     background-image: url("../img/v2osk-1Z2niiBPg5A-unsplash.jpg");
 }
+
 .three {
     background-image: url("../img/jeremy-bishop-EwKXn5CapA4-unsplash.jpg");
 }
-.one, .two, .three {
-    background-size: cover; /* utile per la hero */
+
+.one,
+.two,
+.three {
+    background-size: cover;
     background-position: center;
 }
 
+
+/* =========================
+   CONTACT
+========================= */
 .contact {
-    /* border: 1px solid black;da togliere */
     padding: 80px 5%;
-    /* min-height: 60vh;
-    background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
-    background-size: cover; 
-    background-position: center; */
-    
 }
+
 .background-image-bottom {
     min-height: 100vh;
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
-    background-size: cover; /* utile per la hero */
+    background-size: cover;
     background-position: center;
-}
-
-.footer ul {
-    list-style-type: none;
-}
-
-/* .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-.header { 
-    padding: 1rem;
-    /* height: 60px; oppure 50px se vuoi margine interno  */
-    /* display:flex;
-    justify-content: center;
-    align-items:center;  */
-    /* border: 1px solid red; */
-}
-.header img {
-    height: clamp(40px, 6vw, 60px);
-    width: auto;
-}
-/* .logo img { height: 100%; 
-    width: auto; 
-} */
-
-.cta-button {
-    padding: 12px 24px;
-    background: #1E4C2C;
-    border-radius: 6px;
-    text-decoration:none;
-    color:white;
-    font-weight:600;
-    transition:.3s;
-}
-
-/* Cambia colore al passaggio del mouse */
-.cta-button:hover {
-    background-color: #718F22;  
-    transition: background-color 0.3s ease;
-}
-
-.footer {
-    padding: 20px 0;
-    text-align:center;
-}
-.footer ul{
-    display:flex;
-    gap:10px;
-    justify-content:center;
-    padding-top: 20px;
-}
-
-.footer ul li a, .footer p {
-    color: rgba(252, 221, 154, 0.693);
-}
-
-
-.about h2, .contact h2 {
-    text-align: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 10px;
     align-items: center;
     padding: 5%;
 }
 
-.header, .footer {
-    background-color: rgba(55, 83, 53, 0.65);
+.about h2,
+.contact h2 {
+    text-align: center;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+.cta-button {
+    padding: 12px 24px;
+    background: #1E4C2C;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #718F22;
+    transition: background-color 0.3s ease;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer ul li a,
+.footer p {
     color: rgba(252, 221, 154, 0.693);
 }
 
+
+/* =========================
+   MEDIA QUERY
+========================= */
 @media (min-width: 768px) {
-    .contact h2, .about h2, .projects h2 {
+
+    .contact h2,
+    .about h2,
+    .projects h2 {
         text-align: left;
     }
+
     .projects {
-    /* border: 1px solid yellow;da togliere */
-    padding: 80px 5%;
-    /*display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap:40px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+        padding: 80px 5%;
     }
+
     .projects-container {
-    /* border: 3px solid black;da togliere */
-    display: flex;
-    flex-direction: row;
+        flex-direction: row;
     }
+
     .projects h2 {
         align-self: flex-start;
     }
+
     .contact h2 {
-        text-align: left;
         padding-left: 5%;
     }
 
     form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px; 
         align-items: flex-start;
-        
     }
 
     .about h2 {
