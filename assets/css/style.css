@@ -186,23 +186,42 @@ form {
    FOOTER
 ========================= */
 .footer {
-    padding: 20px 0;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
-.footer ul {
-    list-style-type: none;
+.footer ul.social-links {
+    list-style: none;
     display: flex;
-    gap: 10px;
     justify-content: center;
-    padding-top: 20px;
+    gap: 1rem;
+    padding: 0;
+    margin: 1rem 0 0 0;
 }
 
-.footer ul li a,
-.footer p {
+.footer ul.social-links li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     color: rgba(252, 221, 154, 0.693);
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s;
 }
 
+.footer ul.social-links li a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hover effetto */
+.footer ul.social-links li a:hover {
+    transform: scale(1.1);
+}
+
+.footer ul.social-links li a span {
+        display: none;
+}
 
 /* =========================
    MEDIA QUERY
@@ -237,5 +256,9 @@ form {
 
     .about h2 {
         margin-bottom: 20px;
+    }
+
+    .footer ul.social-links li a span {
+        display: block;
     }
 }
