@@ -291,4 +291,8 @@ form {
         flex: 1; /* tutte le card uguali */
         max-width: none; /* rimuove limite mobile */
     }
+
+    .text-container {        
+        max-width: calc(100vw - 10%);
+    }
 }
