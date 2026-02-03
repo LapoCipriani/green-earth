@@ -84,4 +84,4 @@ Used for educational purposes only.
 
 ### How to view
 
-Live demo: Coming soon (GitHub Pages)
+Live demo: [https://lapocipriani.github.io/green-earth/]
