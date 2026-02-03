@@ -121,6 +121,7 @@
     padding: 20px;
     text-align: center;
     gap: 15px;
+    flex: 1;
 }
 
 .project .image {
@@ -285,6 +286,7 @@ form {
     .projects-container {
         flex-direction: row; /* desktop: affianca le card */
         max-width: 1200px;
+        align-items: stretch;
     }
 
     .project {
