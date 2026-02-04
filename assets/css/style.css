@@ -11,6 +11,15 @@
 /* =========================
    HEADER
 ========================= */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -174,6 +183,7 @@
     background-image: url("../img/noah-buscher-x8ZStukS2PM-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    flex-grow: 1;
 }
 
 form {
