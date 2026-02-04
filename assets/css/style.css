@@ -25,6 +25,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    position: relative; /* così resta in alto */
+    z-index: 10; /* sopra la hero */
+    /* width: 100%; */
 }
 
 .header img {
