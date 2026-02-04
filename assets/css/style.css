@@ -225,6 +225,7 @@ form {
 .footer {
     padding: 2rem 1rem;
     text-align: center;
+    align-self: flex-end;
 }
 
 .footer ul.social-links {
